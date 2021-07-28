@@ -6,7 +6,7 @@ echo "Your Artisan File has been found!"
 
 echo "Downloading the Theme"
 mkdir -p tempdown && cd tempdown && git clone https://github.com/treckk00/pageDesign.git .
-wait
+
 cp -r app ..
 cp -r config ..
 cp -r database ..
